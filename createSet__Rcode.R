@@ -28,6 +28,7 @@ mouse_LD50_cmpnd_id__query <- dbSendQuery(con, 'SELECT cs.molregno, cs.canonical
 														  a.tid = "50594"')
 mouse_LD50_cmpnd_id__result <- dbFetch(mouse_LD50_cmpnd_id__query) |> distinct() |>
 									mutate(entity = 'mouse')
+dbClearResult(mouse_LD50_cmpnd_id__query)
 # Get the IDs for cell-line toxicity
 hcl_tox_cmpnd_id__query <- dbSendQuery(con, 'SELECT cs.molregno, cs.canonical_smiles FROM compound_structures cs
 													JOIN molecule_hierarchy mh
@@ -45,10 +46,12 @@ hcl_tox_cmpnd_id__query <- dbSendQuery(con, 'SELECT cs.molregno, cs.canonical_sm
 														  a.tid = td.tid')
 hcl_tox_cmpnd_id__result <- dbFetch(hcl_tox_cmpnd_id__query) |> distinct() |>
 									mutate(entity = 'cell')
+dbClearResult(hcl_tox_cmpnd_id__query)
 # Get the IDs for compounds studied as drugs
 drug_cmpnd_id__query <- dbSendQuery(con, 'SELECT molregno FROM molecule_dictionary
 																					WHERE max_phase IS NOT NULL')
 drug_cmpnd_id__result <- dbFetch(drug_cmpnd_id__query) |> mutate(type = 'clinical_candidate')
+dbClearResult(drug_cmpnd_id__query)
 
 # Result
 structures <- bind_rows(hcl_tox_cmpnd_id__result, mouse_LD50_cmpnd_id__result) |>
@@ -62,3 +65,6 @@ structures <- bind_rows(hcl_tox_cmpnd_id__result, mouse_LD50_cmpnd_id__result) |
 
 # Save the result
 write_tsv(structures, ".../output/mouse-vs-cl_ldcc50.tab")
+
+# Close the connection
+dbDisconnect(con)
