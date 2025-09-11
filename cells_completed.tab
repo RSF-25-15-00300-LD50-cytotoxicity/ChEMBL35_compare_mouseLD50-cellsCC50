@@ -1,0 +1,68 @@
+tid	cell_name	clo_id	efo_id	cellosaurus_id	cl_lincs_id	cell_ontology_id	cell_description	cell_source_tissue	progeny	type	developmental	type_ref
+80048	BXPC-3	CLO_0002065	EFO_0002709	CVCL_0186	LCL-1731	NA	BXPC-3 (Pancreatic adenocarcinoma cells)	Pancreatic adenocarcinoma cells	Pancreas	cancer		https://www.cellosaurus.org/CVCL_1099
+80052	C8166	CLO_0002149	NA	CVCL_1099	LCL-1011	NA	C8166 (Leukemic T-cells)	Leukemic T-cells	Immune	transformed		https://cellmodelpassports.sanger.ac.uk/passports/SIDM00072
+80054	Caco-2	CLO_0002172	EFO_0001099	CVCL_0025	LCL-1170	NA	Caco-2 (Colon adenocarcinoma cells)	Colon adenocarcinoma cells	Gut	cancer		https://www.cellosaurus.org/CVCL_0025
+80058	Calu-3	CLO_0002192	EFO_0002819	CVCL_0609	LCL-1631	NA	Calu-3	Lung adenocarcinoma	Lung	cancer		https://www.cellosaurus.org/CVCL_0609
+80064	CCRF-CEM	CLO_0002334	EFO_0002128	CVCL_0207	LCL-1012	NA	CCRF-CEM (T-cell leukemia)	T-cell leukemia	Immune	cancer		https://www.cellosaurus.org/CVCL_0207
+80118	Detroit 551	CLO_0002751	NA	CVCL_2434	NA	NA	Detroit 551	Embryonic skin	Skin	finite	1	https://www.cellosaurus.org/CVCL_2434
+80152	HCT-8	CLO_0003667	EFO_0002189	CVCL_2478	LCL-1198	NA	HCT-8 (Ileocecal adenocarcinoma)	Ileocecal adenocarcinoma	Gut	cancer		https://www.cellosaurus.org/CVCL_2478
+80166	HT-29	CLO_0004283	EFO_0001193	CVCL_0320	LCL-1180	NA	HT-29 (Colon adenocarcinoma cells)	Colon adenocarcinoma cells	Gut	cancer		https://www.cellosaurus.org/CVCL_0320
+80169	Huh-7	CLO_0050853	EFO_0005384	CVCL_0336	LCL-1926	NA	Huh-7  (Hepatocellular carcinoma)	Hepatocellular carcinoma	Liver	cancer		https://www.cellosaurus.org/CVCL_0336
+80186	K562	CLO_0007059	EFO_0002067	CVCL_0004	LCL-1103	NA	K562 (Erythroleukemia cells)	Erythroleukemia cells	Immune	cancer		https://www.cellosaurus.org/CVCL_0004
+80222	MCF-10A	CLO_0007599	EFO_0001200	CVCL_0598	LCL-2085	NA	MCF-10A	mammary epithelial 	Breast	transformed		https://www.cellosaurus.org/CVCL_0598
+80291	MRC5	CLO_0007865	EFO_0002835	CVCL_0440	NA	NA	MRC5 (Embryonic lung fibroblast cells)	Embryonic lung fibroblast cells	Lung	finite	1	https://www.cellosaurus.org/CVCL_0440
+80294	MT2	CLO_0007888	NA	CVCL_2631	NA	NA	MT2 (Lymphocytes)	Lymphocytes	Immune	transformed		https://www.cellosaurus.org/CVCL_2631
+80295	MT4	CLO_0007891	NA	CVCL_2632	NA	NA	MT4 (Lymphocytes)	Lymphocytes	Immune	transformed		https://www.cellosaurus.org/CVCL_2632
+80335	NHDF	NA	NA	NA	NA	NA	NHDF	Dermal Fibroblasts	Skin	finite		https://www.sigmaaldrich.com/RU/en/product/sigma/c12302
+80374	P3HR-1	CLO_0008331	EFO_0002312	CVCL_2676	LCL-2024	NA	P3HR-1	Lyphoma	Immune	cancer		https://www.cellosaurus.org/CVCL_2676
+80390	PC-3	CLO_0008395	EFO_0002074	CVCL_0035	LCL-1299	NA	PC-3 (Prostate carcinoma cells)	Prostate carcinoma cells	Reproduction	cancer		https://www.cellosaurus.org/CVCL_0035
+80421	RD	CLO_0008770	EFO_0002315	CVCL_1649	LCL-1411	NA	RD (Rhabdomyosarcoma cells)	Rhabdomyosarcoma cells	Musculoskeletal	cancer		https://www.cellosaurus.org/CVCL_1649
+80434	RPTEC	NA	NA	NA	NA	CL_0002306	RPTEC (Renal proximal tubule epithelial cells)	Renal proximal tubule epithelial cells	Kidney	transformed		https://www.atcc.org/products/crl-4031
+80471	SH-SY5Y	CLO_0009015	EFO_0002717	CVCL_0019	NA	NA	SH-SY5Y (Bone marrow neuroblastoma cells)	Bone marrow neuroblastoma cells	Nervous system	cancer		https://www.cellosaurus.org/CVCL_0019
+80499	SNB-19	CLO_0009093	EFO_0002342	CVCL_0535	LCL-1363	NA	SNB-19 (Glioma cells)	Glioma cells	Nervous system	cancer		https://www.cellosaurus.org/CVCL_0535
+80523	SW1353	CLO_0009210	EFO_0002360	CVCL_0543	NA	NA	SW1353	Bone Chondrosarcoma	Musculoskeletal	cancer		https://www.cellosaurus.org/CVCL_0543
+80548	THP-1	CLO_0009348	EFO_0001253	CVCL_0006	LCL-1072	NA	THP-1 (Acute monocytic leukemia cells)	Acute monocytic leukemia cells	Immune	cancer		https://www.cellosaurus.org/CVCL_0006
+80550	TZM	NA	NA	CVCL_B478	NA	NA	TZM (Cervical carcinoma cells)	Cervical carcinoma cells	Reproduction	cancer		https://www.cellosaurus.org/CVCL_B478
+80557	U1	NA	NA	CVCL_M769	NA	NA	U1	Histiocytic Lymphoma	Immune	cancer		https://www.cellosaurus.org/CVCL_M769
+80561	U2OS	CLO_0009454	EFO_0002869	CVCL_0042	LCL-1431	NA	U2OS (Osteosarcoma cells)	Osteosarcoma cells	Musculoskeletal	cancer		https://www.cellosaurus.org/CVCL_0042
+80566	U-937	CLO_0009465	EFO_0001257	CVCL_0007	LCL-1125	NA	U-937 (Histiocytic lymphoma cells)	Histiocytic lymphoma cells	Immune	cancer		https://www.cellosaurus.org/CVCL_0007
+80589	WI-38	CLO_0009594	EFO_0001260	CVCL_0579	NA	NA	WI-38 (Embryonic lung fibroblast cells)	Embryonic lung fibroblast cells	Lung	finite	1	https://www.cellosaurus.org/CVCL_0579
+80669	ACH-2 cell line	NA	NA	CVCL_0138	NA	NA	ACH-2 cell line	NA	Immune	cancer		https://www.cellosaurus.org/CVCL_0138
+80682	A549	CLO_0001601	EFO_0001086	CVCL_0023	LCL-1601	NA	A549 (Lung carcinoma cells)	Lung carcinoma cells	Lung	cancer		https://www.cellosaurus.org/CVCL_0023
+80850	FHC	CLO_0003236	NA	CVCL_3688	NA	NA	FHC cell line	NA	Gut	transformed		https://www.cellosaurus.org/CVCL_3688
+80877	NCI-H1299	CLO_0007986	EFO_0003043	CVCL_0060	LCL-1609	NA	NCI-H1299 (Non-small cell lung carcinoma)	Non-small cell lung carcinoma	Lung	cancer		https://www.cellosaurus.org/CVCL_0060
+80901	HaCaT	NA	EFO_0002056	CVCL_0038	NA	NA	HaCaT (Keratinocytes)	Keratinocytes	Skin	transformed		https://www.cellosaurus.org/CVCL_0038
+80928	HCT-116	CLO_0003665	EFO_0002824	CVCL_0291	NA	NA	HCT-116 (Colon carcinoma cells)	Colon carcinoma cells	Gut	cancer		https://www.cellosaurus.org/CVCL_0291
+80936	HEK293	CLO_0001230	EFO_0001182	CVCL_0045	NA	NA	HEK293 (Embryonic kidney fibroblasts)	Embryonic kidney fibroblasts	Kidney	transformed	1	https://www.cellosaurus.org/CVCL_0045
+80942	HEL	CLO_0003679	EFO_0006579	CVCL_0001	LCL-1053	d	HEL (Embryonic lung cells)	Erythroleukemia	Immune	cancer		https://www.cellosaurus.org/CVCL_0001
+80943	HEL 299	CLO_0003681	NA	CVCL_2480	NA	NA	HEL 299	Lung fibroblast	Lung	finite	1	https://www.cellosaurus.org/CVCL_2480
+80945	HEp-2	CLO_0003707	EFO_0006438	CVCL_1906	NA	NA	HEp-2 (Laryngeal carcinoma cells)	Laryngeal carcinoma cells	Oral and Craniofacial	cancer		https://www.cellosaurus.org/CVCL_1906
+80954	HFF	NA	NA	NA	NA	CL_1001608	HFF (Foreskin fibroblasts)	Foreskin fibroblasts	Reproduction	finite		https://www.cellosaurus.org/CVCL_XB54
+80957	HMEC	NA	EFO_0001188	NA	NA	CL_2000008	HMEC (Microvascular endothelial cells)	Microvascular endothelial cells	breast	finite		https://www.atcc.org/products/pcs-600-010
+81020	HepG2	CLO_0003713	EFO_0001187	CVCL_0027	LCL-1925	NA	HepG2 (Hepatoblastoma cells)	Hepatoblastoma cells	Liver	cancer		https://www.cellosaurus.org/CVCL_0027
+81057	HUVEC	NA	EFO_0002795	NA	NA	NA	HUVEC (Umbilical vein endothelial cells)	Umbilical vein endothelial cells	Heart and Vascular	transformed		https://pubmed.ncbi.nlm.nih.gov/7526034/
+81132	L132	CLO_0007159	NA	CVCL_1908	NA	NA	L132 (Alveolar cells)	Alveolar cells	Lung	cancer		https://www.cellosaurus.org/CVCL_1908
+81247	HeLa	CLO_0003684	EFO_0001185	CVCL_0030	LCL-1512	NA	HeLa (Cervical adenocarcinoma cells)	Cervical adenocarcinoma	Reproduction	cancer		https://www.cellosaurus.org/CVCL_0030
+100081	PBMC	NA	NA	NA	NA	CL_2000001	PBMC (Peripheral blood mononuclear cells)	Peripheral blood mononuclear cells	Immune	finite		https://en.wikipedia.org/wiki/Peripheral_blood_mononuclear_cell
+100091	HS27	CLO_0004251	NA	CVCL_0335	NA	NA	HS27 (Fibroblast cells)	Fibroblast cells	Skin	finite		https://www.cellosaurus.org/CVCL_0335
+100496	Huh-5-2	NA	NA	CVCL_X943	NA	NA	Huh-5-2 (Huh-7 with replicating HCV-RNA)	Huh-7 with replicating HCV-RNA	Liver	cancer		https://www.cellosaurus.org/CVCL_X943
+100738	HFL1	CLO_0003734	EFO_0005368	CVCL_0298	NA	NA	HFL1 (Lung fibroblast cells)	Lung fibroblast cells	Lung	finite	1	https://www.cellosaurus.org/CVCL_0298
+102149	Hepatocyte	NA	NA	NA	NA	CL_0000182	Hepatocytes	Liver	Lung	finite		
+103335	NCI-H1666	CLO_0008009	EFO_0002262	CVCL_1485	LCL-1673	NA	NCI-H1666	NA	Lung	cancer		https://www.cellosaurus.org/CVCL_1485
+109982	HEK-293T	CLO_0050894	EFO_0001184	CVCL_0063	NA	NA	HEK-293T (A derivative of HEK-293 cells containing the SV40 T-antigen)	Embryonic kidney fibroblasts	Kidney	transformed	1	https://www.cellosaurus.org/CVCL_0063
+118469	16HBE14o-	NA	NA	CVCL_0112	NA	NA	16HBE14o-	Bronchial, epithelial	Lung	transformed		https://www.cellosaurus.org/CVCL_0112
+118473	ARPE-19	CLO_0001749	EFO_0006271	CVCL_0145	NA	NA	ARPE-19	Retinal epithelium	Eye	transformed		https://www.cellosaurus.org/CVCL_0145
+118477	BEAS-2B	CLO_0001925	EFO_0001089	CVCL_0168	NA	NA	BEAS-2B	Bronchial, epithelial	Lung	transformed		https://www.cellosaurus.org/CVCL_0168
+118492	H1-HeLa	CLO_0003586	NA	CVCL_3334	NA	NA	H1-HeLa (Cervical adenocarcinoma cells)	Cervical adenocarcinoma	Reproduction	cancer		https://www.cellosaurus.org/CVCL_3334
+118501	HFF-1	CLO_0003730	NA	CVCL_3285	NA	NA	HFF-1	Foreskin, fibroblast	Reproduction	finite		https://www.cellosaurus.org/CVCL_3285
+118502	HK-2	CLO_0003771	NA	CVCL_0302	NA	NA	HK-2	Kidney	Kidney	transformed		https://www.cellosaurus.org/CVCL_0302
+118512	HepG2 2.2.15	CLO_0001176	NA	CVCL_L855	NA	NA	HepG2 (Hepatoblastoma cells)  2.2.15	Hepatoblastoma cells	Liver	cancer		https://www.cellosaurus.org/CVCL_L855
+118531	L02	NA	NA	CVCL_6926	NA	NA	L02	Cervical carcinoma	Reproduction	cancer		https://www.cellosaurus.org/CVCL_6926
+118576	TK6	CLO_0009357	NA	CVCL_0561	NA	NA	TK6	Spleen lymphoblast	Spleen	transformed		https://www.cellosaurus.org/CVCL_0561
+118734	Huh7.5.1	NA	NA	CVCL_E049	NA	NA	Huh7.5.1	Hepatocellular carcinoma	Liver	cancer		https://www.cellosaurus.org/CVCL_E049
+120564	SK-N-BE(2)	CLO_0009052	NA	CVCL_0528	NA	NA	SK-N-BE(2) (Neuroblastoma)	Neuroblastoma	Nervous system	cancer		https://www.cellosaurus.org/CVCL_0528
+120570	Huh-7.5	NA	EFO_0005704	CVCL_7927	NA	NA	Huh-7.5 (Adult hepatocellular carcinoma)	Adult hepatocellular carcinoma	Liver	cancer		https://www.cellosaurus.org/CVCL_7927
+120845	MNT-1	NA	NA	CVCL_5624	NA	NA	MNT-1 (Melanoma)	Melanoma	Skin	cancer		https://www.cellosaurus.org/CVCL_5624
+120846	THP1-Dual	NA	NA	CVCL_X599	NA	NA	THP1-Dual (Acute monoblastic/monocytic leukemia)	Acute monoblastic/monocytic leukemia	Immune	cancer		https://www.cellosaurus.org/CVCL_X599
+121156	Macrophage	NA	NA	NA	NA	CL_0000235	Macrophage cells	NA	Immune	finite		
+121433	LX-2	NA	NA	CVCL_5792	NA	NA	LX-2	Liver (hepatic stellate cell)	Liver	transformed		https://www.cellosaurus.org/CVCL_5792
