@@ -1,7 +1,6 @@
 library(tidyverse)
 library(RMariaDB)
 library(DBI)
-library(networkD3)
 
 # Connect
 mysql_password = '***'
