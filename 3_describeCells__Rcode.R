@@ -1,5 +1,4 @@
 library(tidyverse)
-library(ggsankey)
 library(jsonlite)
 
 # Input
