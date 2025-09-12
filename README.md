@@ -1,4 +1,4 @@
-This repo is intended to be as data free as possible, since most of the data could be obtained programmaticaly.
+This repo is intended to be as data free as possible, since most of the data could be obtained programmaticaly, which is good.
 However, some datasets may require manual adjustments. These datasets will be uploaded.
 Namely:
 - cells_completed.tab contains ChEMBL [1d] data and data from other sources. Thus, ChEMBL data license (https://creativecommons.org/licenses/by-sa/3.0/) along with the licenses of other sources mentioned in the file should be considered. Also, additional processing of the data in this file are in line with those described in [2d].
