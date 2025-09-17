@@ -2,6 +2,7 @@ This repo is intended to be as data free as possible, since most of the data cou
 However, some datasets may require manual adjustments. These datasets will be uploaded.
 Namely:
 - cells_completed.tab contains ChEMBL [1d] data and data from other sources. Thus, ChEMBL data license (https://creativecommons.org/licenses/by-sa/3.0/) along with the licenses of other sources mentioned in the file should be considered. Also, additional processing of the data in this file are in line with those described in [2d].
+- cells_price.tab contains the normalized cells' prices obtained mainly from ATCC (https://www.atcc.org/). 
 
 
 
@@ -23,3 +24,4 @@ Tool References:
 3t. Müller K, Ooms J, James D, DebRoy S, Wickham H, Horner J (2025). _RMariaDB: Database Interface and MariaDB Driver_. doi:10.32614/CRAN.package.RMariaDB <https://doi.org/10.32614/CRAN.package.RMariaDB>, R package version 1.3.4, <https://CRAN.R-project.org/package=RMariaDB>.
 
 4t. R Special Interest Group on Databases (R-SIG-DB), Wickham H, Müller K (2024). _DBI: R Database Interface_. doi:10.32614/CRAN.package.DBI <https://doi.org/10.32614/CRAN.package.DBI>, R package version 1.2.3, <https://CRAN.R-project.org/package=DBI>.
+5t. Pedersen T (2025). _patchwork: The Composer of Plots_. doi:10.32614/CRAN.package.patchwork <https://doi.org/10.32614/CRAN.package.patchwork>, R package version 1.3.2, <https://CRAN.R-project.org/package=patchwork>.
