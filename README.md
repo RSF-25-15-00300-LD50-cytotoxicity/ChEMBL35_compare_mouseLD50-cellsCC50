@@ -24,6 +24,9 @@ Tool References:
 3t. Müller K, Ooms J, James D, DebRoy S, Wickham H, Horner J (2025). _RMariaDB: Database Interface and MariaDB Driver_. doi:10.32614/CRAN.package.RMariaDB <https://doi.org/10.32614/CRAN.package.RMariaDB>, R package version 1.3.4, <https://CRAN.R-project.org/package=RMariaDB>.
 
 4t. R Special Interest Group on Databases (R-SIG-DB), Wickham H, Müller K (2024). _DBI: R Database Interface_. doi:10.32614/CRAN.package.DBI <https://doi.org/10.32614/CRAN.package.DBI>, R package version 1.2.3, <https://CRAN.R-project.org/package=DBI>.
+
 5t. Pedersen T (2025). _patchwork: The Composer of Plots_. doi:10.32614/CRAN.package.patchwork <https://doi.org/10.32614/CRAN.package.patchwork>, R package version 1.3.2, <https://CRAN.R-project.org/package=patchwork>.
+
 6t. Bostock, Michael, Vadim Ogievetsky, and Jeffrey Heer. "D³ data-driven documents." IEEE transactions on visualization and computer graphics 17.12 (2011): 2301-2309.
+
 7t. https://inkscape.org/
