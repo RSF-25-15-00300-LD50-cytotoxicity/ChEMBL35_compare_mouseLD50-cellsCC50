@@ -6,7 +6,7 @@ Namely:
 
 
 
-The code in this repo is highly dependent on R ecosystem [1t] in general and several readily available libraries [1t-4t].
+The code in this repo is highly dependent on R ecosystem [1t] in general and Tidyverse [2t], and several readily available libraries [3t-5t]. Also, for some tasks D3.js is used [6t, https://observablehq.com/@d3/sankey/2?collection=@d3/d3-sankey], which is basically another one whole universe of tools for data analysis and visualization on par with Tidyverse in its scale. Some vizualizations are hard, thus InkScape [7t] is some times used to make aesthetical adjustments.
 
 Data References:
 
@@ -25,3 +25,5 @@ Tool References:
 
 4t. R Special Interest Group on Databases (R-SIG-DB), Wickham H, Müller K (2024). _DBI: R Database Interface_. doi:10.32614/CRAN.package.DBI <https://doi.org/10.32614/CRAN.package.DBI>, R package version 1.2.3, <https://CRAN.R-project.org/package=DBI>.
 5t. Pedersen T (2025). _patchwork: The Composer of Plots_. doi:10.32614/CRAN.package.patchwork <https://doi.org/10.32614/CRAN.package.patchwork>, R package version 1.3.2, <https://CRAN.R-project.org/package=patchwork>.
+6t. Bostock, Michael, Vadim Ogievetsky, and Jeffrey Heer. "D³ data-driven documents." IEEE transactions on visualization and computer graphics 17.12 (2011): 2301-2309.
+7t. https://inkscape.org/
