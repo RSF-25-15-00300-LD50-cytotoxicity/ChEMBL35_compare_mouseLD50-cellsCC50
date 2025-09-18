@@ -1,3 +1,6 @@
+Preclinical in silico assessement of drugs' safety is a process aimed to reduce the time and resources, which are needed to make sure that drug candidate is safe enough to be studied in clinic. Toxicity prediction is an important part of it. Here is the code for the descriptive analysis of ChEMBL data [1d] on the toxicity of chemical compounds towards human cells and mouse (model objects), which are often used to study drugs' safety. This analysis is aimed to understand these data deeper.
+
+
 This repo is intended to be as data free as possible, since most of the data could be obtained programmaticaly, which is good.
 However, some datasets may require manual adjustments. These datasets will be uploaded.
 Namely:
