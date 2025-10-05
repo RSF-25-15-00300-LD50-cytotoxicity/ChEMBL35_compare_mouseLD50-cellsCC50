@@ -9,7 +9,9 @@ Namely:
 
 
 
-The code in this repo is highly dependent on R ecosystem [1t] in general and Tidyverse [2t], and several readily available libraries [3t-5t]. Also, for some tasks D3.js is used [6t, https://observablehq.com/@d3/sankey/2?collection=@d3/d3-sankey], which is basically another one whole universe of tools for data analysis and visualization on par with Tidyverse in its scale. Some vizualizations are hard, thus InkScape [7t] is some times used to make aesthetical adjustments.
+The code in this repo is highly dependent on R ecosystem [1t] in general and Tidyverse [2t], and several readily available libraries [3t-5t, 8t-14t]. Also, for some tasks D3.js is used [6t, https://observablehq.com/@d3/sankey/2?collection=@d3/d3-sankey], which is basically another one whole-universe of tools for data analysis and visualization on par with Tidyverse in its scale. Some vizualizations are hard, thus InkScape [7t] is some times used to make aesthetical adjustments.
+
+Publicly available MACCS keys (see for example: https://www.mayachemtools.org/docs/modules/pdf/MACCSKeys.pdf) are used to work with the chemical structures. Actually, for this purpose we typically use MNA-descriptors developed in LSFBD (https://en.ibmc.msk.ru/departments?view=article&id=26:laboratory-of-structure-function-based-drug-design&catid=10:data). However, despite the fact that algorithm of MNA generation is described and available [15t], current realization of the generator is proprietary; thus, the data on MNA are not presented in this repo, only final results are available. 
 
 Data References:
 
@@ -17,6 +19,7 @@ Data References:
 
 2d. Lagunin AA, Dubovskaja VI, Rudik AV, et al. CLC-Pred: A freely available web-service for in silico prediction of human cell line cytotoxicity for drug-like compounds. Plos one. 2018 ;13(1):e0191838. DOI: 10.1371/journal.pone.0191838. PMID: 29370280; PMCID: PMC5784992.
 
+The study was supported by the Russian Science Foundation, grant № РНФ 25-15-00300
 
 Tool References:
 
@@ -33,3 +36,27 @@ Tool References:
 6t. Bostock, Michael, Vadim Ogievetsky, and Jeffrey Heer. "D³ data-driven documents." IEEE transactions on visualization and computer graphics 17.12 (2011): 2301-2309.
 
 7t. https://inkscape.org/
+
+8t. Guha, R. (2007). 'Chemical Informatics Functionality in R'. Journal of Statistical Software 6(18)
+
+9t. Guha R (2018). _fingerprint: Functions to Operate on Binary Fingerprint Data_.
+  doi:10.32614/CRAN.package.fingerprint
+  <https://doi.org/10.32614/CRAN.package.fingerprint>, R package version 3.5.7,
+  <https://CRAN.R-project.org/package=fingerprint>.
+
+10t. Miron B. Kursa (2021). Praznik: High performance information-based feature selection.
+  SoftwareX, 16, 100819. URL https://doi.org/10.1016/j.softx.2021.100819
+
+11t. R. Philip Chalmers (2012). mirt: A Multidimensional Item Response Theory Package for
+  the R Environment. Journal of Statistical Software, 48(6), 1-29.
+  doi:10.18637/jss.v048.i06
+
+12t. Konopka T (2023). _umap: Uniform Manifold Approximation and Projection_.
+  doi:10.32614/CRAN.package.umap <https://doi.org/10.32614/CRAN.package.umap>, R
+  package version 0.2.10.0, <https://CRAN.R-project.org/package=umap>.
+
+13t. McInnes, Leland, John Healy, and James Melville. "Umap: Uniform manifold approximation and projection for dimension reduction." arXiv preprint arXiv:1802.03426 (2018).
+
+14t. Погодин ПВ,  СОХРАНЕНИЕ ЛОКАЛЬНОЙ И ГЛОБАЛЬНОЙ СТРУКТУРЫ ДАННЫХ ПРИ СНИЖЕНИИ РАЗМЕРНОСТИ НА ПРИМЕРЕ АЛГОРИТМА UMAP.  НОВЫЕ ГОРИЗОНТЫ ПРИКЛАДНОЙ МАТЕМАТИКИ. Страницы: 105-107, номер: 2, год: 2025.  eLIBRARY ID: 82731688.
+
+15t. Filimonov, Dmitrii, et al. "Chemical similarity assessment through multilevel neighborhoods of atoms: definition and comparison with the other descriptors." Journal of chemical information and computer sciences 39.4 (1999): 666-670.
