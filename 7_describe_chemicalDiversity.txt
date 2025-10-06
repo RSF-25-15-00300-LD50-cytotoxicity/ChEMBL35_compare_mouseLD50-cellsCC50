@@ -1,0 +1,27 @@
+ASSESS CHEMICAL DIVERSITY
+1. Prepare `mouse-vs-cl_ldcc50.tab` obtained with `1_createSet_someDetails__Rcode.R`
+This file contains IDs, chemical structures and labels for compounds evaluated against cells and mouse.
+2. Go to the "https://way2drug.com/tdv/", which was created during the RSF 23-73-01058; and drag the file to the input field ("Drag your file with chemical structures here, please").
+3. Select the type of scaffold to be computed ("non-generic" - ring systems, linkers between them and rigidly attached heteroatoms).
+4. Select the max range for the differences in the lengths of C-C bonds ("50").
+5. Press "ASSESS CHEMICAL DIVERSITY" and wait for the results to appear.
+6. Check the results or download them as the SVG-file to check them latter locally (press "DOWNLOAD FIGURE").
+
+VISUALIZE CELL-MOUSE differences in terms of the scaffolds of evaluated compounds
+ASSESS CHEMICAL DIVERSITY
+1. Prepare `mouse-vs-cl_ldcc50.tab` obtained with `1_createSet_someDetails__Rcode.R`
+This file contains IDs, chemical structures and labels for compounds evaluated against cells and mouse.
+2. Go to the "https://way2drug.com/tdv/", which was created during the RSF 23-73-01058; and drag the file to the input field ("Drag your file with chemical structures here, please").
+3. Select the type of scaffold to be computed ("non-generic" - ring systems, linkers between them and rigidly attached heteroatoms).
+4. No need to select the max range for the differences in the lengths of C-C bonds, here the fixed max range equals 20 is always used.
+5. Press "ACCESS PROPERTY, TEXT" to work with the labels of chemical compounds aggregated over scaffold.
+6. The results here are the interactive scaffold cloud and table containing labels aggregated over scaffolds.
+7. The table could be filtered using JS regular expresssions, scaffold cloud will be updated accordingly.
+8. Initially using such filtering criterion as '^(?!.*mouse).*$' it is possible to get the scaffolds of chemical structures, which were evaluated against cells only.
+	NB, not documented and not oficial feature
+	The table could be downloaded at this point for the further examination. At the moment there is no option to download the Figure here. However, technically, it is possible.
+	To do that just copy svg element with ID "svg_field_interface", insert it into the empty txt file, rename to SVG and edit using InkScape or other software.
+9. Using such filtering criterion as 'clinical' it is possible to restrict the results further and highlight only scaffolds of those compounds, which have been evaluated against cells and are in clinical development.
+10. Initially using such filtering criterion as '^(?!.*cell).*$' it is possible to get the scaffolds of chemical structures, which were evaluated against the mouse only.
+11. Using such filtering criterion as clinical, it is possible to restrict the results further ...
+12. Initially using such filtering criterion as '(cell.*mouse)|(mouse.*cell)' it is possible to restrict the results to those scaffolds, which belong to the compounds evaluated against the both mouth and cell.
